@@ -13,7 +13,7 @@ use base 'Exporter';
 
 our @EXPORT = qw<make_cow_ref>;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub tied_any {
     my ($ref) = @_;
@@ -275,7 +275,7 @@ sub SCALAR {
 
 1;
 
-=head1 TITLE
+=head1 NAME
 
 Data::COW - clone deep data structures copy-on-write
 
